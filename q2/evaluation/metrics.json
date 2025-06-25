@@ -1,0 +1,9 @@
+{
+  "total_tasks": 3,
+  "correct_on_first_try": 0,
+  "correct_after_retry": 0,
+  "solved_by_optimization": 0,
+  "accuracy_before_retry": 0.0,
+  "final_accuracy": 0.0,
+  "optimization_success_rate": 0.0
+}

@@ -10,4 +10,17 @@ def call_ollama(prompt: str, model: str = "qwen3:0.6b"):
     }
 
     response = requests.post(url, headers=headers, json=data)
-    return response.json()["response"]
+
+    try:
+        result = response.json()
+    except Exception as e:
+        print("❌ Failed to parse JSON from Ollama response")
+        print(response.text)
+        return "ERROR: Failed to parse response."
+
+    if "response" in result:
+        return result["response"]
+    else:
+        print("❌ 'response' key missing in Ollama reply:")
+        print(result)
+        return "ERROR: No valid output."

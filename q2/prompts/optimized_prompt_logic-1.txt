@@ -1,0 +1,30 @@
+<think>
+Okay, so the user wants me to improve the prompt for better reasoning. The original problem was: "If all bloops are razzies and all razzies are lazzies, are all bloops definitely lazzies?" and the expected answer was "Yes". But the received answer is "should". Hmm, maybe there's confusion here. Let me think.
+
+First, I need to understand the logic here. The problem is a classic logic puzzle. All bloops are razzies, and all razzies are lazzies. So from these two statements, can we conclude that all bloops are lazzies? Well, if all razzies are lazzies, and all bloops are razzies, then yes, all bloops are lazzies. But maybe the original prompt isn't clear, leading people to think that the answer is "Yes" but the received answer is "should". Wait, maybe the user is confused between "are definitely" and "should be". Or perhaps there's a translation issue.
+
+Wait, the original prompt is in Chinese? The user wrote "You are a step-by-step reasoning assistant. For the following problem, think aloud and walk through each step of the solution logically." So maybe the prompt is in Chinese. The problem is translated, and the user is asking for a better prompt. The original problem might have been clearer, but the way it's phrased leads to confusion. For example, if the problem is presented as a logic puzzle, the step-by-step process should explain each logical step clearly. So maybe the original prompt was too vague, leading to confusion about whether the answer is "Yes" or "should". The improved prompt needs to make the reasoning process clear and ensure that the user can follow the logic.
+
+So, the key points are: the problem is a logical deduction, and the original prompt might not have been precise enough. The improved prompt should guide the user to apply the premises step by step, ensuring that all steps are logically connected. That way, the user can see how the conclusion follows, making it more reliable.
+</think>
+
+To improve the prompt for better reasoning, we need to ensure clarity in the logical steps and avoid ambiguity. Here's a revised improved prompt:
+
+**Improved Prompt:**  
+"Consider the following two premises:  
+1. *All bloops are razzies.*  
+2. *All razzies are lazzies.*  
+
+Can we conclude that *all bloops are lazzies*? Please walk through the reasoning process step by step."
+
+**Reasoning Process:**  
+1. Start with the first premise: "All bloops are razzies."  
+2. Apply the second premise: "All razzies are lazzies."  
+3. Since all bloops are razzies and all razzies are lazzies, this means **all bloops are lazzies**.  
+4. The conclusion logically follows from the premises.  
+
+**Key Improvements:**  
+- Clearly states the premises and asks for the conclusion.  
+- Ensures each step is logically followed.  
+
+This structure helps the user understand the reasoning without confusion, leading to a reliable answer.
