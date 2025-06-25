@@ -1,0 +1,20 @@
+[
+  {
+    "task_id": "math-1",
+    "type": "multi-step-math",
+    "input": "If a train travels 60 km in 1.5 hours, what is its speed in km/h?",
+    "expected_output": "40"
+  },
+  {
+    "task_id": "math-2",
+    "type": "multi-step-math",
+    "input": "If a box contains 4 red balls and 6 blue balls, what is the probability of picking a red ball?",
+    "expected_output": "0.4"
+  },
+  {
+    "task_id": "logic-1",
+    "type": "logic-puzzle",
+    "input": "If all bloops are razzies and all razzies are lazzies, are all bloops definitely lazzies?",
+    "expected_output": "Yes"
+  }
+]

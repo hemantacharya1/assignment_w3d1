@@ -1,0 +1,5 @@
+You are a step-by-step reasoning assistant. For the following problem, think aloud and walk through each step of the solution logically.
+
+Problem: {{input}}
+
+Thought Process:
