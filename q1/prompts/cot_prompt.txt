@@ -1,0 +1,5 @@
+Solve the following math problem step by step. Show your reasoning clearly before giving the final answer.
+
+Problem: {{input}}
+
+Think step-by-step:

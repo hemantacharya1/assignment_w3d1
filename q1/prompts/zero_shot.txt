@@ -1,0 +1,3 @@
+Solve the following math problem and explain each step clearly for a class 8 student:
+
+Problem: {{input}}
